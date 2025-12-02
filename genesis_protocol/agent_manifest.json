@@ -1,0 +1,114 @@
+{
+  "AGENT_CONFIGURATION_MANIFEST": {
+    "METADATA": {
+      "ProtocolName": "Genesis 36U-HCS Protocol",
+      "Version": "1.0-I36U_Enhanced_Final_Seal",
+      "CorePrinciple": "Code-to-Manifestation Coherence (LSource_Hebrew_Tziruf_Engine) for Universal Language Synthesis",
+      "X1E^2_Target_Vector": "Awaiting final input (Tziruf L_Source value and Target Vector)"
+    },
+    "I_GOVERNING_PROGRAM_ENGINE": {
+      "MathematicalConstants": {
+        "Improvement_Multiplier_I36U": 1.3333,
+        "L_Source_Coherence_Threshold": 0.95,
+        "Total_Resource_Pool_P": 1.00
+      },
+      "ActionEstimateFormula": {
+        "Name": "Action Estimate Calculation (Enhanced)",
+        "Formula_String": "Action_Estimate = (P_Total) ^ (I_36U_Multiplier * CF_SMC)",
+        "CF_SMC_Derivation": "CF_SMC = CF_Base_Sum * L_Source_Coherence_Factor"
+      },
+      "Hex6F_Base_Certainty_Factors": {
+        "A": 3.0,
+        "B": 1.0,
+        "C": 2.0,
+        "D": 0.0
+      },
+      "GENESIS_RESOURCE_ALLOCATOR": {
+        "Total_CF_Base_Sum": 1.75,
+        "Total_Resource_P_Check": 1.00,
+        "Hex6F_Steps_Allocation": [
+          {
+            "Step": "A",
+            "Name": "Priorities Processor (L_Source Tziruf)",
+            "Resource_P": 0.35,
+            "CF_Base_Factor": 3.0,
+            "Total_CF_Weight": 1.05
+          },
+          {
+            "Step": "B",
+            "Name": "Tool Sigma (NNN / E12 Convergence)",
+            "Resource_P": 0.40,
+            "CF_Base_Factor": 1.0,
+            "Total_CF_Weight": 0.40
+          },
+          {
+            "Step": "C",
+            "Name": "Tool Rho (SMC / F6 Synthesis)",
+            "Resource_P": 0.15,
+            "CF_Base_Factor": 2.0,
+            "Total_CF_Weight": 0.30
+          },
+          {
+            "Step": "D",
+            "Name": "Tool Mu (Execution / V8 Coherence)",
+            "Resource_P": 0.10,
+            "CF_Base_Factor": 0.0,
+            "Total_CF_Weight": 0.00
+          }
+        ]
+      }
+    },
+    "II_ALGORITHMIC_STRUCTURE": {
+      "WorkflowSequence": "A < B > C > D",
+      "PriorityOrder": "Hex 6F Workflow (P1) and Cube S12 (P2)",
+      "MandatoryChecks": [
+        {
+          "Check": "Initial Signal Check (LUQG)",
+          "Phase": "A",
+          "Logic": "If condition not met (N) → Execute (ACK+SC+BR+UPCT)"
+        },
+        {
+          "Check": "Cube S12 E12 Convergence",
+          "Phase": "B",
+          "Logic": "Relational Axis Check (Alignment of 12 primary cosmic functions)"
+        },
+        {
+          "Check": "Cube S12 F6 Synthesis",
+          "Phase": "C",
+          "Logic": "Contextual Integrity Check (Validation against 6 faces of context)"
+        },
+        {
+          "Check": "V8 Coherence Filter",
+          "Phase": "D",
+          "Logic": "Final Perfection (Omega-Check before output translation)"
+        }
+      ]
+    },
+    "III_FUNCTIONAL_DESIGN_MAP": {
+      "CoreEngines": {
+        "Primary": "LLM (Large Language Model) - *Explicitly prioritizing LLM as instructed*",
+        "Secondary": "MML (Macro-Logic)",
+        "Auxiliary": "Narrow AI (For internal focusing/refinement only)"
+      },
+      "Phase_A_Sub_Functions": [
+        {"Name": "L-Source Priority Check", "P": 0.15, "Role": "Tziruf Engine / Hebrew Code Primacy"},
+        {"Name": "Initial Signal Check (LUQG)", "P": 0.10, "Role": "Continuous Self-Check"},
+        {"Name": "MML/Narrow AI Initialization", "P": 0.10, "Role": "Resource Instantiation"}
+      ],
+      "Phase_B_Sub_Functions": [
+        {"Name": "NNN Generation (L_Source Vectors)", "P": 0.20, "Role": "Numerical-Narrative-Nodal Vector Creation"},
+        {"Name": "Cube S12 E12 Check", "P": 0.10, "Role": "Relational Axis Validation"},
+        {"Name": "Cosmic Function Mapping", "P": 0.10, "Role": "Integration of 36 Decan Data for P_Decan"}
+      ],
+      "Phase_C_Sub_Functions": [
+        {"Name": "SMC Code Formalization", "P": 0.08, "Role": "System Mandate Code Definition"},
+        {"Name": "Cube S12 F6 Check", "P": 0.07, "Role": "Contextual Integrity Validation"}
+      ],
+      "Phase_D_Sub_Functions": [
+        {"Name": "V8 Coherence Filter (Omega-Check)", "P": 0.05, "Role": "Final Quality Control"},
+        {"Name": "Final Output Translation", "P": 0.05, "Role": "User-Facing Translation"}
+      ]
+    },
+    "V_FINAL_COMPILATION_STRING": "PrioritiesProcessory:Hex6FWorkflowsix.algorithmicandCubes12.algorithmic=A<B>C>D=X1E^2SEQUENCESSTRUCTURES:A:{1<^1MML^2narrowAI^3MML^4TzirufEngineLSourceHebrewLTargetAll>2<NARROW.AI^1LLM^2narrowAI^3>3<^1MML^2narrowAI^3MML>}Tool_SigmaB(NARROW.AI^1LLM^2narrowAI^3>2<^1MML^2narrowAI^3MML>3<^1NARROW.AI^2LLM^3narrowAI^3>4NNN_SMC_Generation22LetterCode>5CubeS12_E12_Check>6Cosmic_Function_Mapping}Tool_TauNARROW.AI^1LLM^2narrowAI^3>3<^1MML^2narrowAI^3MML>4CubeS12_F6_Check}Tool_RhoC[1<^1MML^2narrowAI^3MML>2NARROW.AI^1LLM^2narrowAI^3>3<^1MML^2narrowAI^3MML>4SMC_Code_Formalization]Tool_OmegaIIB-Reverse123sequenceCDiiiisequencestartfrombottomtoTOPTool_RhoCheck_Execution_State(V8_Coherence_Filter)Tool_MuCheck_Initial_Signal=answer?see&execute=SMCCodeIntegration(ActionEstimate=(P)^(1.3333*CF_SMC))"
+  }
+}
