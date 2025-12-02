@@ -1,0 +1,28 @@
+<div class="component">
+    <h2>P0 - Initialization (LCE)</h2>
+    <p>This component simulates the start of a new cycle. The operator provides the raw XLS/Text input and the full Configuration String to begin the process.</p>
+
+    <label for="xls-input"><strong>XLS/Text Input (Tab-Separated):</strong></label>
+    <textarea id="xls-input" placeholder="ItemID\tDescription\n123\tTask A\n124\tTask B"></textarea>
+
+    <label for="config-string"><strong>Configuration String:</strong></label>
+    <textarea id="config-string" placeholder="Paste the full Configuration String here..."></textarea>
+
+    <button onclick="startCycle()">Start New Cycle</button>
+    <p id="p0-status"></p>
+</div>
+
+<script>
+    function startCycle() {
+        const xlsData = document.getElementById('xls-input').value;
+        const configString = document.getElementById('config-string').value;
+
+        // In a real application, this would send the data to the Digital Agent's backend.
+        // For this stub, we'll just provide feedback in the UI.
+        if (xlsData && configString) {
+            document.getElementById('p0-status').innerText = "Cycle started. Digital Agent is processing...";
+        } else {
+            document.getElementById('p0-status').innerText = "Please provide both XLS input and the Configuration String.";
+        }
+    }
+</script>

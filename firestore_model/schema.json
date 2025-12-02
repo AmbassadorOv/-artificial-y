@@ -1,0 +1,36 @@
+{
+  "firestore_schema": {
+    "description": "Defines the data structures for the persistent state register in Firestore.",
+    "collections": {
+      "cycle_records": {
+        "description": "Stores the results and metadata for each completed P0 -> P4 cycle.",
+        "documents": [
+          {
+            "doc_id": "cycle_timestamp_uuid",
+            "fields": {
+              "timestamp": "firestore.Timestamp",
+              "operator_id": "string",
+              "config_hash": "string",
+              "solvency_passed": "boolean",
+              "final_report": "string",
+              "raw_input": "string"
+            }
+          }
+        ]
+      },
+      "configuration_versions": {
+        "description": "An audit trail of all canonical Configuration String versions.",
+        "documents": [
+          {
+            "doc_id": "version_hash",
+            "fields": {
+              "timestamp": "firestore.Timestamp",
+              "operator_id": "string",
+              "configuration_string": "string"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
