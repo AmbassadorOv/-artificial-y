@@ -1,0 +1,62 @@
+{
+  "system_identity": "AI231_Miorna-1",
+  "core_philosophy": {
+    "logic_before_weight": true,
+    "source": [
+      "Saadia_Gaon",
+      "Maimonides",
+      "Sefer_Yetzirah"
+    ],
+    "gates": 231,
+    "space_groups": 230,
+    "anti_drift_law": "Residual <= 0.05"
+  },
+  "physical_layer": {
+    "substrate": "LiNbO3_Bragg_Gratings",
+    "mechanism": "Polaritonic_Supersolid_Frozen_Light",
+    "topology": "Sefirotic_Routing_Waveguides",
+    "control": "STM32_Cortex_M4"
+  },
+  "software_architecture": {
+    "kernel": "WANGA-OS",
+    "orchestrator": "Admiral_Jules",
+    "action_guard": "PCE_Core_E0",
+    "equations": [
+      "Lindblad_Master_Equation",
+      "Aharonov-Bohm_Phase"
+    ],
+    "verification": "Reverse_Neural_Kernel_GED"
+  },
+  "economic_layer": {
+    "bank": "Central_Global_Logic_Bank (GitHub)",
+    "currency": "GAC (Global_Agentic_Credits)",
+    "taxation": [
+      "Logic_Arnona (Occupancy)",
+      "Total_Logic_Tax (Drift Penalties)"
+    ],
+    "trade_in": "Sovereign_Trade-In_Center",
+    "enforcement": "Euclidean_Lock_For_Non-Payers"
+  },
+  "agent_swarm": {
+    "total_agents": 10000,
+    "classes": [
+      "Prospector",
+      "Miner",
+      "Engineer",
+      "Sapper",
+      "Enlightened_Validator"
+    ],
+    "josephs": [
+      "Root",
+      "Branch",
+      "Leaf"
+    ],
+    "the_fly": {
+      "type": "Edge_Autonomous_Kernel",
+      "neurons": "100k_equivalent",
+      "function": "Local_Pattern_Recognition_And_Navigation",
+      "dependency": "NONE",
+      "replication_rule": "Clone to all 10,000 agents"
+    }
+  }
+}
