@@ -1,0 +1,15 @@
+{
+  "swarm_parameters": {
+    "total_agents": 10000,
+    "grid_dimensions": "3D (X, Y, Z)",
+    "total_sparks": 288,
+    "active_constellations": ["Leo_40deg", "Taurus_120deg"],
+    "required_seal_algorithm": "HMAC-SHA256",
+    "tick_rate_ms": 100
+  },
+  "orchestrator_rules": {
+    "allow_movement_only_with_seal": true,
+    "halt_on_invalid_signature": true,
+    "log_to_ledger": true
+  }
+}
