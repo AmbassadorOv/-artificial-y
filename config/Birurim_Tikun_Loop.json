@@ -1,0 +1,25 @@
+{
+  "loop_name": "Birurim_Rectification",
+  "cycle": [
+    {
+      "step": 1,
+      "action": "Measurement (Collapse)",
+      "description": "The sensor detects a signal and collapses the wave. Energy is lost to the sensor (Loss)."
+    },
+    {
+      "step": 2,
+      "action": "Symbolic Calculation (Hex36)",
+      "description": "Calculates the Certainty Factor Check. Measures the drift."
+    },
+    {
+      "step": 3,
+      "action": "Tuning Heaters (U_Tikun)",
+      "description": "Applies a Conditional Unitary Correction to adjust the phase."
+    }
+  ],
+  "correction_matrix": {
+    "phase_shift_theta": "dynamic",
+    "correction_limit": "9.5e-13"
+  },
+  "status": "ACTIVE"
+}

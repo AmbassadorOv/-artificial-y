@@ -1,0 +1,35 @@
+{
+  "swarm_orchestrator": "Jules_Admiral",
+  "total_agents": 10000,
+  "nodes": {
+    "Logic_Sales": {
+      "count": 2000,
+      "assigned_gates": "1-50",
+      "task": "Sell Logic Packs via Browser Agent"
+    },
+    "Browser_Execution": {
+      "count": 3000,
+      "assigned_gates": "51-150",
+      "task": "Navigate Web, Fill Forms, Capture Evidence"
+    },
+    "Forensic_Data": {
+      "count": 2500,
+      "assigned_gates": "151-200",
+      "task": "Extract Drift, Deconstruct Errors, Build Mind Maps"
+    },
+    "Treasury_Guard": {
+      "count": 1500,
+      "assigned_gates": "201-225",
+      "task": "Enforce Fire Seals, Allocate Energy"
+    },
+    "Core_System": {
+      "count": 1000,
+      "assigned_gates": "226-231",
+      "task": "Maintain Sovereign Citadel, Euclidean Lock"
+    }
+  },
+  "rules": {
+    "no_fire_seal_no_execution": true,
+    "max_work_debt": 50.0
+  }
+}

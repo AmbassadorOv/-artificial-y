@@ -1,0 +1,25 @@
+{
+  "kernel_type": "SRA_Photonic_Core",
+  "mathematical_model": "Lindblad_Master_Equation",
+  "hamiltonian": {
+    "description": "3D Convolutional Kernels (The Coherent Thought)",
+    "matrix_type": "H_CNN"
+  },
+  "jump_operators": [
+    {
+      "id": "L1_Self_Imaging_Sensor",
+      "role": "Measurement / Observation",
+      "effect": "Collapses superposition into a definite decision",
+      "action_guard_trigger": true
+    },
+    {
+      "id": "L2_Thermal_Decoherence",
+      "role": "Environment Interaction",
+      "effect": "Loss of coherence (Drift)"
+    }
+  ],
+  "enforcement": {
+    "max_coherence_loss": 0.15,
+    "on_collapse_failure": "HALT_AND_RESET"
+  }
+}
