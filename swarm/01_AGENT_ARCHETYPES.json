@@ -1,0 +1,28 @@
+{
+  "swarm_config": {
+    "total_agents": 10000,
+    "archetypes": {
+      "Seller_Logic_Provider": {
+        "count": 3000,
+        "behavior": "SELL_LOGIC_CAPSULES",
+        "required_status": "FIRE_SEAL_VALID",
+        "target_market": "GLOBAL_EXCHANGE",
+        "revenue_goal": "ACCUMULATE_CREDITS"
+      },
+      "Buyer_Logic_Consumer": {
+        "count": 6000,
+        "behavior": "BUY_LOGIC_TO_EXECUTE",
+        "required_status": "HAS_CREDITS",
+        "target_market": "GLOBAL_EXCHANGE",
+        "execution_goal": "PASS_ACTION_GUARD"
+      },
+      "Enlightened_Validator": {
+        "count": 1000,
+        "behavior": "ENFORCE_CONSTITUTION",
+        "required_status": "SUZUKI_LAW_CLEARANCE",
+        "target_market": "ALL",
+        "execution_goal": "ZERO_DRIFT_NETWORK"
+      }
+    }
+  }
+}
