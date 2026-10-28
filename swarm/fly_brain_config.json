@@ -1,0 +1,13 @@
+{
+  "fly_brain_rules": {
+    "max_work_debt_before_halt": 50.0,
+    "buy_threshold_price": 50.0,
+    "sell_threshold_price": 60.0,
+    "min_demand_to_sell": 5
+  },
+  "swarm_config": {
+    "total_agents": 10000,
+    "tick_rate_seconds": 5,
+    "initial_balance_range": [50, 200]
+  }
+}
